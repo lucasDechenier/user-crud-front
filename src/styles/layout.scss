@@ -2,14 +2,9 @@
 .flex-wrap {
   flex-wrap: wrap;
 }
+
 .flex-grow {
   flex-grow: 1;
-}
-
-@for $i from 0 through 5 {
-  .flex-shrink-#{$i} {
-    flex-shrink: #{$i};
-  }
 }
 
 @each $p, $v in (start flex-start) (center center) (between space-between) (space-around space-around) (end flex-end) {

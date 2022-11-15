@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <vue-topprogress ref="topLoading" :height="5"></vue-topprogress>
+    <vue-topprogress ref="topLoading" color="#FEAF00" :height="3"></vue-topprogress>
     <v-main class="max-h-screen">
       <router-view />
     </v-main>
